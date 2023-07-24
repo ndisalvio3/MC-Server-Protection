@@ -37,7 +37,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Locale;
 
-@Deprecated(forRemoval = true)
+@Deprecated(forRemoval = false)
 public enum ChatRooms implements ServerTranslatable {
     WHISPER(SewChatConfig.CHAT_WHISPER_FORMAT, Formatting.GRAY, Formatting.ITALIC),
     LOCAL(SewChatConfig.CHAT_LOCAL_FORMAT, Formatting.BLUE),

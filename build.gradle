@@ -2,11 +2,11 @@ plugins {
 	id 'java-library'
 	id 'idea'
 	id 'maven-publish'
-	id 'fabric-loom' version '1.2.7'
-	id 'com.github.johnrengelman.shadow' version '7.1.0'
+	id 'fabric-loom' version '1.3-SNAPSHOT'
+	id 'com.github.johnrengelman.shadow' version '8.1.1'
 }
 
-String bluemapVersion = 'v2.5.1'
+String bluemapVersion = 'v2.6.0'
 String permsVersion = '0.2-SNAPSHOT'
 
 gradle.startParameter.showStacktrace = ShowStacktrace.ALWAYS
