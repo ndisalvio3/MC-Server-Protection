@@ -1,31 +1,32 @@
-# gradle
-
+# Gradle
 .gradle/
-gradle/
-!gradle/wrapper/gradle-wrapper.jar
 build/
 out/
 classes/
+# Exclude all of gradle/ except the wrapper JAR
+gradle/*
+!gradle/wrapper/
+!gradle/wrapper/gradle-wrapper.jar
 
-# idea
-
+# IDEA (IntelliJ)
 .idea/
 *.iml
 *.ipr
 *.iws
 
-# vscode
-
-.settings/
+# VS Code
 .vscode/
-bin/
+.settings/
+# Eclipse (if relevant)
 .classpath
 .project
+bin/
 
-# fabric
-
+# Fabric
 run/
 
-# testing stuff
-
+# Testing stuff
 sewingmachine-custom/
+
+# Misc
+.fake
