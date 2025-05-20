@@ -2,6 +2,7 @@
 
 .gradle/
 gradle/
+!gradle/wrapper/gradle-wrapper.jar
 build/
 out/
 classes/
